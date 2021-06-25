@@ -1,0 +1,102 @@
+PODS:
+  - M3U8Kit (1.0.2)
+  - Masonry (1.1.0)
+  - SJBaseVideoPlayer (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.6.3)
+    - SJBaseVideoPlayer/Common (= 3.6.3)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.6.3):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.6.3):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.57):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.57)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.57)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.57)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.57)
+  - SJUIKit/ObserverHelper (0.0.0.57)
+  - SJUIKit/Queues (0.0.0.57)
+  - SJUIKit/SQLite3 (0.0.0.57):
+    - SJUIKit/SQLite3/Core (= 0.0.0.57)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.57)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.57):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.57):
+    - YYModel
+  - SJVideoPlayer (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common (= 3.3.2)
+    - SJVideoPlayer/ControlLayers (= 3.3.2)
+    - SJVideoPlayer/ResourceLoader (= 3.3.2)
+  - SJVideoPlayer/Common (3.3.2):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.3.2):
+    - SJBaseVideoPlayer (>= 3.6.0)
+  - SnapKit (5.0.1)
+  - YYModel (1.0.4)
+  - ZFPlayer/AVPlayer (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.1)
+
+DEPENDENCIES:
+  - M3U8Kit
+  - SJVideoPlayer
+  - SnapKit
+  - ZFPlayer/AVPlayer (~> 4.0)
+  - ZFPlayer/ControlView (~> 4.0)
+  - ZFPlayer/Core (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - M3U8Kit
+    - Masonry
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - YYModel
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  M3U8Kit: 6a0d55ba2e62e146f34f53276d7c3aa78ed4fc00
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SJBaseVideoPlayer: 99957bb0d0fe1ccb8d6710bd9db9f52640c56a32
+  SJUIKit: 55e5ae2beee094abab143f45addc23690883040b
+  SJVideoPlayer: 3a271ff92c7b9d611c537655fd1edcbae18b8587
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+
+PODFILE CHECKSUM: 50d01c665cd359022d8d6ef45174d3fbb3e219c1
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-ZQPlayer/Pods-ZQPlayer-frameworks.sh
+${BUILT_PRODUCTS_DIR}/M3U8Kit/M3U8Kit.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SJBaseVideoPlayer/SJBaseVideoPlayer.framework
+${BUILT_PRODUCTS_DIR}/SJUIKit/SJUIKit.framework
+${BUILT_PRODUCTS_DIR}/SJVideoPlayer/SJVideoPlayer.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
